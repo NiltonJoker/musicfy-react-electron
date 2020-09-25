@@ -8,11 +8,14 @@ https://musicfy-react-web.netlify.app/
 
 ## Configuraciones Previas
 
-Para arrancar la app se debe primero añadir la configuración de firebase en la carpeta utils/Firebase.js
+Para arrancar la app se debe primero añadir la configuración de firebase en la carpeta src/utils/Firebase.js
 
 ## Available Scripts
 
 En este proyecto puedes ejecutar:
+
+### `yarn`
+Para instalar las dependencias
 
 ### `yarn start`
 
