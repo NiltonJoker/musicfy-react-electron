@@ -1,0 +1,34 @@
+@import "../../scss/index.scss";
+
+.ui.grid.logged-layout {
+  background-color: $background-grey-dark-light;
+  min-height: 100vh;
+  // background-attachment: fixed;
+  // height: 100%;
+  margin: 0;
+
+  > .row {
+    padding: 0;
+
+    &:first-of-type {
+      height: 90vh;
+      padding: 0;
+    }
+    &:last-of-type{
+      height: 10vh;
+    }
+
+    >.column{
+      padding:0;
+    }
+  }
+
+  .content{
+    overflow: hidden;
+    overflow-y: scroll;
+    height: calc(100vh - 105px);
+    &::-webkit-scrollbar{
+      display: none;
+    }
+  }
+}

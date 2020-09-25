@@ -1,0 +1,21 @@
+@import "../../scss/index.scss";
+
+.log-out {
+  text-align: center;
+
+  .ui.button {
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    color: $font-dark;
+    &.accept {
+      color: $font-light;
+      background-color: $background-grey-dark;
+    }
+    &:hover {
+      color: $font-light;
+      background-color: $primary-color;
+    }
+  }
+}
